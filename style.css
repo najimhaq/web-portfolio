@@ -1,18 +1,111 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 50px;
+    font-weight: 500;
 }
-.main-heighlight{
-    color: orange;
+.orange-heighlight{
+    color: #ffa600;
+    font-weight: 600;
+}
+p{
+    color: dimgray;
+}
+h3{
+    font-weight: 600;
+    margin: -15px 0px;
 }
 .half-width{
-    width: 40%;
+    width: 35%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 75%;
+    /* margin-left: 205px;
+    margin-top: 40px;    */
 }
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.banner{
+    background-image: url("images/top-banner.png");
+    margin-bottom: 150px;
+
+}
+/* .txt{
+    margin-bottom: 35px;
+} */
+/* .btn{
+    text-decoration: none;
+    background-image: linear-gradient();
+    background-color: orchid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+} */
+.btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+         .btn-grad {
+            padding: 10px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 20px;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+          }
+
+          /* .half-width2{
+            margin-left: 5%;
+            padding-left: 2%;
+          } */
+          .dream-area{
+              background-image: url("images/dream-bg.png");
+              background-position: right;
+              margin-top: 85px;
+          }
+          .experience-area{
+              background-image: url(images/exp-bg.png);
+              background-position: left;
+              
+          }
+          .single-experience{
+              box-shadow: 10px 10px 40px grey;
+              border-radius: 10px;
+              height: 70%;
+              background-color: white;
+          }
+          #full-stack{
+              border-left: 7px solid;
+              border-image: linear-gradient(180deg, lightsalmon, tomato);
+              border-image-slice: 1;
+             
+          }
+          #full-stack2{
+              border-left: 7px solid;
+              border-image: linear-gradient(180deg, blue, cyan);
+              border-image-slice: 1;
+              /* margin-left: 280px; */
+             
+          }
+          footer p{
+              text-align: center;
+              font-size: 18px;
+          }
+          
